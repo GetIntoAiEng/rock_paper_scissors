@@ -1,0 +1,48 @@
+
+## Git Stuff ##################################################################
+
+-- Check State ----------------------------------------------------------------
+
+    git status
+
+-- Add Changed Code -----------------------------------------------------------
+
+    git add .
+    git commit -m "why would I commit"
+    git push
+
+-- Add a new file -------------------------------------------------------------
+
+    git add file-path/new-file-name
+    git commit -m "why would I commit"
+    git push    
+
+-- rename a file --------------------------------------------------------------  
+
+    git mv <oldname> <newname>
+    git commit -m "why would I commit"
+    git push    
+
+## B R A N C H E S ############################################################
+
+-- Which Branches we got and were are   we ------------------------------------
+
+    git branch
+    or
+    git status
+
+-- Change Branch to -----------------------------------------------------------
+
+    git switch <branch-name>
+
+-- Create A New Branch --------------------------------------------------------
+
+    git checkout -b <new-branch-name>
+    git push -u origin <new-branch-name>
+    git branch  
+
+-- merge back 2 main ----------------------------------------------------------
+
+    git checkout main
+    git pull
+    git merge <your-current-branch-name>
