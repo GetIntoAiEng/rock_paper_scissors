@@ -197,7 +197,7 @@ def state_verify(cap):
         cv2.putText(image, f"PC: {pc_gesture}", (10, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, SCORE_FONT_COLOR, 2)
         cv2.putText(image, result_text, (10, 140), cv2.FONT_HERSHEY_SIMPLEX, 1, SCORE_FONT_COLOR, 2)
         cv2.imshow("Rock-Paper-Scissors", image)
-        cv2.waitKey(3000)  # 2 Sekunden anzeigen
+        cv2.waitKey(2000)  # 2 Sekunden anzeigen
 
     return "run"
 

@@ -3,6 +3,13 @@ Let's play Rock, Paper, Scissors with the computer by camara
 ## Introcduction
 To be able to get deeper into AI and have some stuff to demonstrate to potential employers, I'd like to play a bit with hand gesture recognition.
 Tags: Human-Computer Interaction (HCI) / Gesture Classification / hand gesture recognition 
+
+## How to play it 
+1. Press "s" to start or "ESC " to abbort
+2. PC will count 1, 2, GO!. With "GO!" show what you've got (I recomend to have your hand shown in an horizontal way)
+3. PC will tell you its solution and calculate the winner 
+4. Press "s" to start or "ESC " to abbort - "r" will reset the score
+
 ## How it should work
 After counting "3, 2, 1, Go!" The gesture of the hand, taken by the camara of the PC, shall be analyzed for the gestures
 - Stone    - a fist
@@ -16,7 +23,7 @@ The Winner would be
 - Paper beats Stone
 
 ## Tech Stack To Be Used
-- Github / MS Visual Coder / Jupiter Labs
+- Github / MS Visual Coder
 - **Python 3.12** (pls check requirements.txt for the used versions)
     -> OpenCV
     -> Numpy
@@ -30,7 +37,7 @@ Let's start in the following way - one after another:
 4. Add the game logic around that
 
 ## Main Statemachine (StM)
-additionals\StM.jpg
+![Main Satemachine](additionals/StM.jpg)
 
 ### States
 
